@@ -19,7 +19,7 @@ const Todo = mongoose.model("Todo", todoSchema);
 
 // Home
 app.get("/", (req, res) => {
-  res.send("Mongo Todo API Running 🚀");
+  res.send("CI/CD LIVE 🚀");
 });
 
 // Get all todos
